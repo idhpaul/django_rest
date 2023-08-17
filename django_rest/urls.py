@@ -7,8 +7,8 @@ from rest_framework import routers
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('', include('Gepeat_rest.urls')),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('', include('tut_drf.urls')),
+    path('api-auth/', include('rest_framework.urls')),
 ]
 
 if settings.DEBUG:

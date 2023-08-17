@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     "debug_toolbar",
     
     'rest_framework',
-    'Gepeat_rest',
+    'tut_drf',
 ]
 
 MIDDLEWARE = [

@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class GepeatRestConfig(AppConfig):
+class TutDrfConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Gepeat_rest'
+    name = 'tut_drf'

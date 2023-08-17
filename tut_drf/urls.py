@@ -1,6 +1,6 @@
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
-from Gepeat_rest import views
+from tut_drf import views
 
 urlpatterns = [
     #path('snippets/', views.snippet_list),

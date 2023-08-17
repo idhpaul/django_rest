@@ -13,6 +13,8 @@ from tut_drf.models import Snippet
 from tut_drf.serializers import SnippetSerializer, UserSerializer
 from tut_drf.permissions import IsOwnerOrReadOnly
 
+def test(request):
+    return HttpResponse("hello world")
 
 class UserList(generics.ListAPIView):
     queryset = User.objects.all()
